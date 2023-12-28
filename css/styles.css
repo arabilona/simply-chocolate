@@ -2,14 +2,30 @@ body {
 font-family: "Montserrat", sans-serif;
 }
 
+p, h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
 a {
 text-decoration: none;
+color: currentColor;
 }
 
 ul {
 list-style: none;
+margin-top: 0;
+margin-bottom: 0;
+padding-left: 0;
 }
 
+.container {
+    width: 100%;
+    max-width: 1166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
 .visually-hidden {
 position: absolute;
 width: 1px;
@@ -24,6 +40,10 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
 .header-logo {
 color: #111;
 font-size: 18px;
@@ -58,7 +78,12 @@ color: #FD9222;
 }
 
 .hero {
-background: rgba(17, 17, 17, 0.60);
+    padding-bottom: 80px;
+}
+.hero-container {
+background-color: rgba(17, 17, 17, 0.60);
+border-radius: 30px;
+padding: 380px 40px 40px 40px;
 }
 
 .hero-title {
@@ -67,6 +92,8 @@ font-size: 28px;
 font-weight: 500;
 line-height: 1.21; 
 letter-spacing: -0.03em;
+margin-bottom: 32px;
+max-width: 484px;
 }
 
 .hero-button {
@@ -123,13 +150,15 @@ color: #FD9222;
 
 .second-section {
 background-color: #1E1823;
+padding-top: 50px;
+padding-bottom: 50px;
 }
-
 .benefits-title {
 color: #FFF;
 font-size: 18px;
 font-weight: 600;
 line-height: normal;
+margin-bottom: 18px;
 }
 
 .benefits-decription {
@@ -143,6 +172,7 @@ letter-spacing: 0.02em;
 
 .third-section {
 background-color: #FAFAFA;
+padding-top: 120px;
 }
 
 .ingredients-title {
@@ -153,6 +183,8 @@ font-weight: 600;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+max-width: 412px;
+margin: 0 auto 28px;
 }
 
 .taste {
@@ -165,6 +197,8 @@ text-align: center;
 font-size: 14px;
 line-height: 1.29; 
 letter-spacing: 0.02em;
+max-width: 486px;
+margin: 0 auto 50px;
 }
 
 .ingredients-item-orange {
@@ -196,6 +230,9 @@ letter-spacing: -0.02em;
 
 /*-------Fourth Section---------*/
 
+.fourth-section {
+    padding-top: 120px;
+}
 .process-title {
 color: #111;
 text-align: center;
@@ -215,6 +252,7 @@ color: #111;
 font-size: 18px;
 font-weight: 600;
 line-height: 1.33;
+margin-bottom: 28px;
 }
 
 .process-description {
