@@ -109,13 +109,23 @@ color: #FD9222;
     gap: 14px;
 }
 
+.header-icon {
+    fill: transparent;
+    stroke: #111;
+}
 /*--Hero--*/
 
 .hero {
     padding-bottom: 80px;
 }
+
 .hero-container {
 background-color: rgba(17, 17, 17, 0.60);
+background-image: linear-gradient(rgba(17, 17, 17, 0) 0%,
+        rgba(17, 17, 17, 0.4)), url(../images/chocolate-main.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 border-radius: 30px;
 padding: 380px 40px 40px 40px;
 }
