@@ -314,9 +314,12 @@ padding-left: 5px;
     display: flex;
     gap: 20px;
 }
+
 .content {
 padding: 32px;
+padding-bottom: 120px;
 }
+
 .process-title {
 color: #111;
 text-align: center;
@@ -354,6 +357,10 @@ margin-bottom: 24px;
 
 /*-------Fifth Section--------*/
 
+.name-of-food {
+    padding-bottom: 150px;
+}
+
 .product-title {
 color: #111;
 text-align: center;
@@ -362,10 +369,25 @@ font-weight: 600;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+padding-bottom: 50px;
 }
 
 .products {
 color: #FD9222;
+}
+
+.product-list {
+    display: flex;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 24px;
+}
+
+.product-item {
+    border-radius: 15px;
+        border: 1px solid rgba(17, 17, 17, 0.10);
+        background: #FFF;
+        width: calc((100% - 32px * 3) /4);
 }
 
 .products-name {
@@ -375,6 +397,8 @@ font-weight: 600;
 line-height: 1.33; 
 letter-spacing: 0.02em;
 text-transform: uppercase;
+padding: 8px 21px auto 21px;
+text-align: center;
 }
 
 .products-description {
@@ -382,6 +406,8 @@ color: rgba(17, 17, 17, 0.70);
 font-size: 12px;
 line-height: 1.17; 
 letter-spacing: 0.02em;
+padding: 4px 41px 26px 41px;
+text-align: center;
 }
 
 .buy-button {
@@ -393,6 +419,8 @@ font-size: 14px;
 font-weight: 600;
 line-height: normal;
 cursor: pointer;
+display: flex;
+    align-items: center;
 }
 
 /*----Sixth Section---*/
